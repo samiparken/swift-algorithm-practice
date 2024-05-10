@@ -13,6 +13,11 @@
 		31E0D47E2BEE2A9F003AB6B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31E0D47D2BEE2A9F003AB6B2 /* Base */; };
 		31E0D4802BEE2AA1003AB6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E0D47F2BEE2AA1003AB6B2 /* Assets.xcassets */; };
 		31E0D4832BEE2AA1003AB6B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31E0D4822BEE2AA1003AB6B2 /* Base */; };
+		31E0D48C2BEE2C44003AB6B2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D48B2BEE2C44003AB6B2 /* Queue.swift */; };
+		31E0D48F2BEE2CE2003AB6B2 /* GCD&LCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D48E2BEE2CE2003AB6B2 /* GCD&LCM.swift */; };
+		31E0D4912BEE2D09003AB6B2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D4902BEE2D09003AB6B2 /* Stack.swift */; };
+		31E0D4932BEE2D20003AB6B2 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D4922BEE2D20003AB6B2 /* Permutation.swift */; };
+		31E0D4952BEE2D40003AB6B2 /* Combination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0D4942BEE2D40003AB6B2 /* Combination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		31E0D47F2BEE2AA1003AB6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31E0D4822BEE2AA1003AB6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31E0D4842BEE2AA1003AB6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E0D48B2BEE2C44003AB6B2 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		31E0D48E2BEE2CE2003AB6B2 /* GCD&LCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GCD&LCM.swift"; sourceTree = "<group>"; };
+		31E0D4902BEE2D09003AB6B2 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		31E0D4922BEE2D20003AB6B2 /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
+		31E0D4942BEE2D40003AB6B2 /* Combination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		31E0D4752BEE2A9F003AB6B2 /* swift-algorithm-practice */ = {
 			isa = PBXGroup;
 			children = (
+				31E0D48D2BEE2C85003AB6B2 /* Algorithm */,
+				31E0D48A2BEE2C25003AB6B2 /* DataStructure */,
 				31E0D4762BEE2A9F003AB6B2 /* AppDelegate.swift */,
 				31E0D4782BEE2A9F003AB6B2 /* SceneDelegate.swift */,
 				31E0D47A2BEE2A9F003AB6B2 /* ViewController.swift */,
@@ -65,6 +77,25 @@
 				31E0D4842BEE2AA1003AB6B2 /* Info.plist */,
 			);
 			path = "swift-algorithm-practice";
+			sourceTree = "<group>";
+		};
+		31E0D48A2BEE2C25003AB6B2 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				31E0D48B2BEE2C44003AB6B2 /* Queue.swift */,
+				31E0D4902BEE2D09003AB6B2 /* Stack.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		31E0D48D2BEE2C85003AB6B2 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				31E0D48E2BEE2CE2003AB6B2 /* GCD&LCM.swift */,
+				31E0D4922BEE2D20003AB6B2 /* Permutation.swift */,
+				31E0D4942BEE2D40003AB6B2 /* Combination.swift */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E0D4932BEE2D20003AB6B2 /* Permutation.swift in Sources */,
 				31E0D47B2BEE2A9F003AB6B2 /* ViewController.swift in Sources */,
 				31E0D4772BEE2A9F003AB6B2 /* AppDelegate.swift in Sources */,
 				31E0D4792BEE2A9F003AB6B2 /* SceneDelegate.swift in Sources */,
+				31E0D48F2BEE2CE2003AB6B2 /* GCD&LCM.swift in Sources */,
+				31E0D4912BEE2D09003AB6B2 /* Stack.swift in Sources */,
+				31E0D48C2BEE2C44003AB6B2 /* Queue.swift in Sources */,
+				31E0D4952BEE2D40003AB6B2 /* Combination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
